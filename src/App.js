@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Big Js Reimagined</h1>
-    </div>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
