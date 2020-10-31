@@ -15,11 +15,7 @@ function Navbar() {
     <>
       <div className="navbar">
         <div className="navbar-container container">
-          {/* <div className="hero-container">
-            <img src={hero} alt="" />
-          </div> */}
           <Link to="/" className="navbar-logo">
-            <FaHamburger className="navbar-icon" />
             BigJs - ReImagined
           </Link>
           <div className="menu-icon" onClick={handleClick}>
